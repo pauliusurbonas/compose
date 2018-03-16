@@ -1,0 +1,290 @@
+    1  docker run -ti ubuntu
+    2  ps docker
+    3  docker pc
+    4  docker ps
+    5  docker run -ti ubuntu
+    6  docker ps -a
+    7  docker rm 32eb85ecca3b
+    8  docker rm fb005d6eabcf
+    9  docker rm 9a357a19c08e
+   10  docker ps -a
+   11  docker rm 9a357a19c08e
+   12  apt-get install mc
+   13  docker stop ubuntu
+   14  docker ps -a
+   15  docker stop 9a357a19c08e
+   16  docker rm 9a357a19c08e
+   17  mkdir test
+   18  cd test
+   19  mcedit DockerFile
+   20  mcedit Dockerfile
+   21  docker build
+   22  docker build -t paulius/test
+   23  docker build -t paulius/test .
+   24  run -ti paulius/test
+   25  docker run -ti paulius/test
+   26  mcedit Dockerfile
+   27  docker build -t paulius/test .
+   28  docker run -ti paulius/test
+   29  docker run -ti paulius/test mc
+   30  whoami
+   31  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+   32  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   33  apt-key fingerprint 0EBFCD8
+   34  add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   35     $(lsb_release -cs) \
+   36     stable"
+   37  apt-get update
+   38  apt-get install docker-ce
+   39  docker --version
+   40  docker run -ti ubuntu
+   41  docker ps
+   42  ls
+   43  cd test
+   44  ls
+   45  cd html
+   46  mcedit index.html 
+   47  exit
+   48  mcedit Dockerfile
+   49  docker build -t paulius/test .
+   50  docker run -ti paulius/test
+   51  mcedit Dockerfile
+   52  docker build -t paulius/test .
+   53  docker run -ti paulius/test
+   54  mcedit Dockerfile
+   55  docker build -t paulius/test .
+   56  docker run -ti paulius/test
+   57  mcedit Dockerfile
+   58  docker build -t paulius/test .~
+   59  docker build -t paulius/test .
+   60  docker run -ti paulius/test
+   61  docker run -ti paulius/test bash
+   62  mcedit Dockerfile
+   63  docker build -t paulius/test .
+   64  docker run -ti paulius/test bash
+   65  docker run -ti paulius/test bash\\\\
+   66  docker run -ti paulius/test
+   67  docker run -ti paulius/test bash
+   68  mcedit nginx.conf
+   69  ls
+   70  mcedit Dockerfile
+   71  docker build -t paulius/test .
+   72  docker run -ti paulius/test bash
+   73  docker run -ti paulius/test
+   74  mcedit Dockerfile
+   75  docker build -t paulius/test .
+   76  docker --help
+   77  docker run --help
+   78  run -ti --publish 80:80 pauklius/test
+   79  docker run -ti --publish 80:80 pauklius/test
+   80  passwd dpro
+   81  docker run -ti --publish 80:80 paulius/test
+   82  mcedit index.html
+   83  ls
+   84  docker run -ti --publish 80:80 paulius/test bash
+   85  mcedit Dockerfile
+   86  docker build -t paulius/test .
+   87  docker run -ti --publish 80:80 paulius/test
+   88  mcedit Dockerfile
+   89  mkdir html
+   90  mv index.html html/
+   91  docker run -ti --publish 80:80 --mount type=bind,source=$(pwd)/html,target=/var/www/html paulius/test
+   92  cd test/html
+   93  ls
+   94  docker create --publish 80:80 --mount type=bind,source=$(pwd)/html,target=/var/www/html paulius/test
+   95  docker pc
+   96  docker ps
+   97  docker start c7cc397f87d20a5f9fd1c904eff5a7e94a60756baaca33e5178a9eea8d1db616
+   98  docker ps
+   99  docker stop 9d28b4edd8bd
+  100  docker start c7cc397f87d20a5f9fd1c904eff5a7e94a60756baaca33e5178a9eea8d1db616
+  101  docker ps
+  102  docker stop c7cc397f87d20a5f9fd1c904eff5a7e94a60756baaca33e5178a9eea8d1db616
+  103  docker ps
+  104  docker ps -a
+  105  docker rm $(docker ps -a -q)
+  106  docker ps -a
+  107  cls
+  108  docker ps -a
+  109  curl -L https://github.com/docker/compose/releases/download/1.19.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+  110  docker-compose --version
+  111  chmod +x /usr/local/bin/docker-compose
+  112  docker-compose --version
+  113  cd ..
+  114  mkdir compose
+  115  cd compose
+  116  mcedit docker-compose.yml
+  117  docker-compose build
+  118  mcedit docker-compose.yml
+  119  mkdir html
+  120  cp ../test/html/index.html html/
+  121  docker-compose build
+  122  docker-compose up
+  123  cd nginx
+  124  mcedit Dockerfile 
+  125  cd ..
+  126  docker-compose build
+  127  docker-compose up
+  128  cd nginx/
+  129  mcedit Dockerfile 
+  130  docker-compose down
+  131  docker-compose build
+  132  docker-compose up
+  133  docker ps
+  134  cd ..
+  135  cd html
+  136  mv index.html index.php
+  137  mcedit index.php 
+  138  ls -la
+  139  docker ps
+  140  cd ..
+  141  docker-compose down
+  142  docker-compose buil
+  143  docker-compose build
+  144  docker-compose up -d
+  145  ls
+  146  docker-composer build
+  147  docker-compose build
+  148  ls
+  149  cd nginx
+  150  ls
+  151  cmedit Dockerfile
+  152  mcedit Dockerfile
+  153  cd ..
+  154  docker-compose up
+  155  mcedit docker-compose.yml 
+  156  docker-compose build
+  157  docker-compose up
+  158  cd html/
+  159  ls
+  160  cmedit index.html 
+  161  cmedit index.html
+  162  mcedit index.html
+  163  cd ..
+  164  cd test\
+  165  cd test
+  166  ls
+  167  cd ../compose
+  168  mkdir nginx
+  169  cp ../test/Dockerfile nginx/
+  170  cp ../test/nginx.conf nginx/
+  171  cd nginx/
+  172  ls -la
+  173  cd ..
+  174  sudo su
+  175  docker push paulius/test
+  176  ls -la
+  177  docker push paulius/test
+  178  docker login
+  179  docker build -t paulius/test .
+  180  ls
+  181  mcedit nginx.conf 
+  182  mcedit Dockerfile 
+  183  docker build -t paulius/test .
+  184  docker push paulius/test
+  185  ls
+  186  docker push dpro08/test
+  187  docker build -t dpro08/test .
+  188  docker push dpro08/test
+  189  docker pull gnodox/test
+  190  apt-get install git
+  191  git init
+  192  git remote add https://github.com/pauliusurbonas/test.git
+  193  git remote add origin https://github.com/pauliusurbonas/test.git
+  194  git add .
+  195  git commit -m "first commit"
+  196  git config --global user.email "paulius.urb@gmail.com"
+  197  git config --global user.name "paulius"
+  198  git commit -m "first commit"
+  199  git push -u origin master
+  200  git commit --allow-empty -m "Fake commit"
+  201  git push -u origin master
+  202  docker swarm init
+  203  docker swarm init --advertise-addr
+  204  ifconfig
+  205  docker swarm init
+  206  docker swarm init --advertise-addr 46.101.114.217
+  207  docker swarm leave --force
+  208  docker swarm join --token SWMTKN-1-53jppz1xwql74h219707f0omaaorp8m1rs7ugsmrco3zoeshnk-5hrxsh9qbz8hejcomtmqdl6ft 165.227.142.56:2377
+  209* 
+  210  docker-compose down
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd compose
+  215  docker-compose down
+  216  docker ps
+  217  docker ps -a
+  218  docker service ls
+  219  docker service ps vigilant_jang
+  220  docker service ls
+  221  docker service ps vigilant_jang
+  222  docker ps
+  223  docker service ps vigilant_jang
+  224  docker ps
+  225  docker service ps vigilant_jang
+  226  docker node ls
+  227  docker service ls
+  228  docker service start uoxqthm0fu4b
+  229  docker node ls
+  230  docker service ps vigilant_jang
+  231  docker swarm leave --force
+  232  docker node ls
+  233  docker service ls
+  234  exit
+  235  mcedit nginx.conf 
+  236  cd ..
+  237  docker-compose down
+  238  docker-compose buil
+  239  docker-compose build
+  240  docker-compose up
+  241  docker-compose up -d
+  242  docker ps
+  243  docker-compose down
+  244  cd nginx/
+  245  mcedit nginx.conf 
+  246  cd ..
+  247  docker-compose build
+  248  docker-compose up -d
+  249  docker ps
+  250  mcedit nginx/nginx.conf 
+  251  docker-compose build
+  252  docker-compose up -d
+  253  docker ps -a
+  254  mcedit nginx/nginx.conf 
+  255  docker-compose build
+  256  docker-compose up
+  257  docker ps -1
+  258  docker ps -a
+  259  docker logs 0ce461e47c68
+  260  mcedit nginx/nginx.conf 
+  261  docker-compose build
+  262  docker-compose up -d
+  263  ls
+  264  mcedit docker-compose.yml 
+  265  mcedit docker-compose.yml
+  266  docker-compose build
+  267  docker-compose up -d
+  268  mcedit docker-compose.yml
+  269  docker login
+  270  cd ..
+  271  cd test
+  272  docker build -t paulius/test .
+  273  docker push paulius/test
+  274  sudo su
+  275  exit
+  276  git init
+  277  git commit -m "first commit"
+  278  git add .
+  279  git commit -m "first commit"
+  280* 
+  281  git remote add origin https://github.com/pauliusurbonas/test
+  282  git push origin master
+  283  git remote remove origin https://github.com/pauliusurbonas/test
+  284  git remote rm origin
+  285  git remote add origin https://github.com/pauliusurbonas/comopose.git
+  286  git push origin master
+  287  git remote rm origin
+  288  git remote add origin https://github.com/pauliusurbonas/compose.git
+  289  git push origin master
+  290  history > history_for_print.txt
